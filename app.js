@@ -23,6 +23,7 @@ buttonReset.onclick = function() {
     minutes="00";
     tens="00";
     seconds="00";
+    appendMinutes.innerHTML = minutes;
     appendTens.innerHTML = tens;
     appendSeconds.innerHTML = seconds;
 }
