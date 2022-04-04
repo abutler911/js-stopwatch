@@ -67,11 +67,11 @@ button:hover {
 	font-size: 12px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 300px) {
 	h1 {
 		font-family: 'Cambria';
 		font-weight: 100;
-		font-size: 2.9em;
+		font-size: 2.4em;
 		text-transform: uppercase;
 		margin: 10px;
 	}
@@ -79,8 +79,8 @@ button:hover {
 	#minutes,
 	#seconds,
 	#tens {
-		font-size: 4em;
-		padding: 3px;
+		font-size: 3.3em;
+		padding: 1px;
 	}
 
 	.colon {
@@ -99,6 +99,6 @@ button:hover {
 	.copyright {
 		padding: 10px;
 		letter-spacing: 2px;
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
